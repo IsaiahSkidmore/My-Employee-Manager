@@ -11,5 +11,5 @@ const pool = new Pool({
 });
 
 
-// export { pool };
-module.exports = pool;
+export { pool };
+// module.exports = pool;
