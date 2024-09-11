@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import { pool } from "./db/connection";
+import { pool } from "./db/connection.js";
 
 function app(): void {
   inquirer
@@ -173,3 +173,4 @@ async function addDepartment(): Promise<void> {
     });
 }
 
+app(); 
