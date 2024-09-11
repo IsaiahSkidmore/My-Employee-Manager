@@ -15,8 +15,20 @@ A command-line interface (CLI) application for managing employees, roles, and de
 - **Inquirer**: For building the command-line interface.
 - **MySQL**: For storing and managing employee, role, and department data.
   
-## **Getting Started**
+## **How to Use**
+- **Follow the on-screen prompts to:**
+  
+  - View all employees, roles, or departments.
+  - Add new employees, roles, or departments.
+  - Exit the application.
+ 
+## License
+This project is licensed under the MIT license.
 
-1. **Install Dependencies**:
-   ```bash
-   npm install  
+## Contributors
+Contributions are welcome! Please fork the repository and submit a pull request for review.
+
+## Questions  
+Github username: IsaiahSkidmore  
+If you have any questions, please reach out to me at isaiahschardt0617@gmail.com.  
+Link to demo video: https://drive.google.com/file/d/1ys4du-jXm_lXNzQ0Z_JCzeWmWOwq_b-u/view
