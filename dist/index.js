@@ -70,7 +70,7 @@ async function viewAllRoles() {
     app();
 }
 async function addEmployee() {
-    const roles = await pool.query("SELECT id as value, title as name,  FROM role");
+    const roles = await pool.query("SELECT id as value, title as name FROM role");
     const employees = await pool.query("SELECT id as value, first_name || ' ' || last_name as name FROM employee");
     inquirer.prompt([
         {
